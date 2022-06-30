@@ -1,2 +1,7 @@
-package africa.semicolon.eventBrite.exceptions;public class RegisterUserException {
+package africa.semicolon.eventBrite.exceptions;
+
+public class RegisterUserException extends EventBriteException{
+    public RegisterUserException(String message){
+        super(message);
+    }
 }

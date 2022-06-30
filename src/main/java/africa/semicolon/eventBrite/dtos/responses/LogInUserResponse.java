@@ -1,4 +1,9 @@
 package africa.semicolon.eventBrite.dtos.responses;
 
-public class LogUserInResponse {
+import lombok.Data;
+
+@Data
+public class LogInUserResponse {
+    private String firstName;
+    private String message;
 }
